@@ -3,7 +3,7 @@ describe('API - Remover Produto', () => {
   let idProduto = ''
 
   before(() => {
-    cy.loginApi('fulano@qa.com', 'teste').then(tokenRecebido => {
+    cy.loginApi('gugamartins2025@gmail.com', 'guga123').then(tokenRecebido => {
       token = tokenRecebido
 
       const produto = {

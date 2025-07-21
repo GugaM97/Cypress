@@ -6,8 +6,8 @@ it('Login sem comando customizado', () => {
     method: 'POST',
     url: 'https://serverest.dev/login',
     body: {
-      email: 'fulano@qa.com',
-      password: 'teste'
+      email: 'gugamartins2025@gmail.com',
+      password: 'guga123'
     }
   }).then(res => {
     expect(res.status).to.eq(200)

@@ -7,8 +7,8 @@ describe('Cadastro de Produto via UI - Serverest', () => {
   it('Deve cadastrar um produto e validar na listagem', () => {
     cy.visit('https://front.serverest.dev/login')
 
-    cy.get('input[data-testid="email"]').type('fulano@qa.com')
-    cy.get('input[data-testid="senha"]').type('teste')
+    cy.get('input[data-testid="email"]').type('gugamartins2025@gmail.com')
+    cy.get('input[data-testid="senha"]').type('guga123')
     cy.get('button[data-testid="entrar"]').click()
 
     cy.url().should('include', '/admin/home')
@@ -36,8 +36,8 @@ describe('Cadastro de Produto via UI - Serverest', () => {
       const idProduto = produtoEncontrado._id
 
       cy.request('POST', 'https://serverest.dev/login', {
-        email: 'fulano@qa.com',
-        password: 'teste'
+        email: 'gugamartins2025@gmail.com',
+        password: 'guga123'
       }).then((loginResponse) => {
         const token = loginResponse.body.authorization
 

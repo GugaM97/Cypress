@@ -12,7 +12,7 @@ describe('Login - Serverest', () => {
   it('Login com sucesso', function () {
     cy.login(this.dados.usuarioValido.email, this.dados.usuarioValido.senha)
     cy.url().should('include', '/home')
-    cy.contains('Bem Vindo Fulano da Silva').should('be.visible')
+    cy.contains('Bem Vindo Gustavo').should('be.visible')
   })
 
   it('Login com erro', function () {

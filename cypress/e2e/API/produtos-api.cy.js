@@ -2,7 +2,7 @@ describe('API - Produtos', () => {
   let token = ''
 
   before(() => {
-    cy.loginApi('fulano@qa.com', 'teste').then(auth => {
+    cy.loginApi('gugamartins2025@gmail.com', 'guga123').then(auth => {
       token = auth
     })
   })
@@ -37,7 +37,7 @@ describe('API - Produtos', () => {
       quantidade: 5
     }
 
-    cy.loginApi('fulano@qa.com', 'teste').then(token => {
+    cy.loginApi('gugamartins2025@gmail.com', 'guga123').then(token => {
       cy.criarProduto(token, produto).then(res => {
         expect(res.status).to.eq(201)
 
