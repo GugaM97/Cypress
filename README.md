@@ -45,7 +45,7 @@ que da para entender perfeitamente (Dependendo do jeito que é escrito)
 
 
 ## 🚀 Como executar
-```bash
+
 npm install
 npx cypress open > Para Abrir a interface gráfica do Cypress
 ou
@@ -53,3 +53,11 @@ npx cypress run > Direto no terminal do Vs code
 
 Ao concluir os testes > Na pasta Reports > mochawesome.html podemos abrir no navegador o relatório dos testes.
 
+-------------------------------------------
+
+📞 Contato
+Gustavo Martins
+🔗 [linkedin.com/in/gugamartins](https://www.linkedin.com/in/gustavo-martins-1a3457225/)
+▶️ YouTube: [Guga Martins](https://www.youtube.com/@gugamartins2509) 
+
+✨ Sinta-se à vontade para contribuir e abrir issues!
