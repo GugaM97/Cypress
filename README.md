@@ -3,6 +3,7 @@
 Projeto de automação UI e API usando Cypress no site [Serverest](https://front.serverest.dev/login)
 
 ## 🧪 Tecnologias
+- Visual studio Code
 - Cypress
 - JavaScript
 - Faker
@@ -46,5 +47,9 @@ que da para entender perfeitamente (Dependendo do jeito que é escrito)
 ## 🚀 Como executar
 ```bash
 npm install
-npx cypress open
+npx cypress open > Para Abrir a interface gráfica do Cypress
+ou
+npx cypress run > Direto no terminal do Vs code
+
+Ao concluir os testes > Na pasta Reports > mochawesome.html podemos abrir no navegador o relatório dos testes.
 
